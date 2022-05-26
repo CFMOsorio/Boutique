@@ -1,0 +1,96 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --main-color: #fd4646;
+    --text-color: #171427;
+    --bg-color: #fff;
+}
+
+img{
+    width: 100%;
+}
+
+body{
+    color: var(--text-color);
+}
+
+.logoBoutique{
+    width: 160px;
+    height: 110px;
+}
+
+.container{
+    max-width: 1068px;
+    margin: auto;
+    width: 100%;
+}
+
+section{
+    padding: 4rem 0 3rem;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    background: var(--bg-color);
+    box-shadow: 0 1px 4px hsl(0 4% 15% / 10%);
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+#bag-icon{
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.seccion-titulo{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tienda{
+    margin-top: 7rem;
+}
+
+#bag2-icon{
+    font-size: 1rem;
+}
+
+.titulo-producto{
+    font-size: 1rem;
+}
+
+.tienda-contenido{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    gap: 1.5rem;
+}
+
+.caja-productos{
+    position: relative;
+}
+
+.caja-productos:hover{
+    padding: 10px;
+    border: 1px solid var(--text-color);
+    transition: 0.4s;
+}
+
+/* minuto 14:15 */
